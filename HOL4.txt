@@ -1,0 +1,46 @@
+documentation {{{
+  - document PairCases_on
+  - write down the exact format required for congruence theorems (for add_cong)
+  - document the relatively new Parse functions for overloads and abbrevs (e.g.
+    pp_overloads_on)
+  - improve Parse.add_rule documentation
+}}}
+formalizations {{{
+  - traditional unification algorithm to complement what's in
+    examples/unification
+  - category theory
+  - CERN LHC SRS
+  - martelli montanari unification (+ time complexity)
+  - "Structural Recursion with Locally Scoped Names" (requires nominal datatype
+    package)
+  - (descriptive) complexity theory
+}}}
+minor hacking {{{
+  - add an =+ overload for finite maps
+  - add rewrites for =+ to combinTheory
+  - replace Coding (for LoadableThyData) with Pickle or something more
+    sophisticated
+  - check a possible absyn postprocessing bug
+  - investigate an error in new_recursive_definition (not sure what this is now)
+  - clean up the tools, tools-poly, tools/poly etc. directory layout/contents
+  - get rid of TruePrefix (i.e. make it Prefix)
+  - TeX and Unicode for BIGUNION and BIGINTER
+  - delete src/pair/help from the repo
+  - make Binarymap have the same interface as Redblackmap
+}}}
+major hacking {{{
+  - fix imp_res_tac: it gives you too much stuff
+  - fix SATISFY_ss: it doesn't do backward chaining properly
+  - hol light kernel
+  - open theory writer (probably requires the above)
+  - nominal datatype package
+  - make HOL4 run on MLton (probably need to write a repl or use Hamlet)
+  - experiment with using Isar or some other DSL for script files
+  - implement locales somehow (possibly requires the one above)
+  - port sledgehammer
+  - how to enable monadsyntax all the time? which one? (don't know exactly what
+    this means)
+  - experiment with overloading instead of defining constants (especially in
+    relationTheory)
+}}}
+vim:foldmethod=marker
