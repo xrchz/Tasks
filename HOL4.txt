@@ -1,11 +1,11 @@
-documentation {{{
+documentation {
   - document PairCases_on
   - write down the exact format required for congruence theorems (for add_cong)
   - document the relatively new Parse functions for overloads and abbrevs (e.g.
     pp_overloads_on)
   - improve Parse.add_rule documentation
-}}}
-formalizations {{{
+}
+formalizations {
   - traditional unification algorithm to complement what's in
     examples/unification
   - category theory
@@ -14,8 +14,8 @@ formalizations {{{
   - "Structural Recursion with Locally Scoped Names" (requires nominal datatype
     package)
   - (descriptive) complexity theory
-}}}
-minor hacking {{{
+}
+minor hacking {
   - add an =+ overload for finite maps
   - add rewrites for =+ to combinTheory
   - replace Coding (for LoadableThyData) with Pickle or something more
@@ -27,8 +27,9 @@ minor hacking {{{
   - TeX and Unicode for BIGUNION and BIGINTER
   - delete src/pair/help from the repo
   - make Binarymap have the same interface as Redblackmap
-}}}
-major hacking {{{
+}
+major hacking {
+  - use proforma theorems to improve HolQbf validity checking complexity
   - fix imp_res_tac: it gives you too much stuff
   - fix SATISFY_ss: it doesn't do backward chaining properly
   - hol light kernel
@@ -42,5 +43,5 @@ major hacking {{{
     this means)
   - experiment with overloading instead of defining constants (especially in
     relationTheory)
-}}}
-vim:foldmethod=marker
+}
+vim:fdm=marker:fmr={,}
