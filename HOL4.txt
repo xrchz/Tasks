@@ -27,6 +27,7 @@ minor hacking {
   - TeX and Unicode for BIGUNION and BIGINTER
   - delete src/pair/help from the repo
   - make Binarymap have the same interface as Redblackmap
+  - tool to find undocumented but visible (i.e. in signatures) functions
 }
 major hacking {
   - use proforma theorems to improve HolQbf validity checking complexity
