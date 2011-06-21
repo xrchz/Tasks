@@ -18,8 +18,8 @@ formalizations {
   - (descriptive) complexity theory
 }
 minor hacking {
-  - add an =+ overload for finite maps
-  - add rewrites for =+ to combinTheory
+  - =+ for finite maps, rewrites combinTheory.UPDATE (email id
+    4C77593C.7060407)
   - replace Coding (for LoadableThyData) with Pickle or something more
     sophisticated
   - check a possible absyn postprocessing bug
