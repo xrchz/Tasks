@@ -6,6 +6,8 @@ documentation {
   - improve Parse.add_rule documentation
 }
 formalizations {
+  - Coq logic within HOL (proof theoretic)
+  - Coq semantically
   - traditional unification algorithm to complement what's in
     examples/unification
   - category theory
