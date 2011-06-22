@@ -25,7 +25,6 @@ minor hacking {
   - check a possible absyn postprocessing bug
   - investigate an error in new_recursive_definition (not sure what this is now)
   - clean up the tools, tools-poly, tools/poly etc. directory layout/contents
-  - get rid of TruePrefix (i.e. make it Prefix)
   - TeX and Unicode for BIGUNION and BIGINTER
   - make Binarymap have the same interface as Redblackmap
   - tool to find undocumented but visible (i.e. in signatures) functions
