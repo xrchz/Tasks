@@ -31,6 +31,7 @@ minor hacking {
 }
 major hacking {
   - use proforma theorems to improve HolQbf validity checking complexity
+  - generic integration of Prover9 and/or Mace4
   - fix imp_res_tac: it gives you too much stuff
   - fix SATISFY_ss: it doesn't do backward chaining properly
   - hol light kernel
