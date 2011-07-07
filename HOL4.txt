@@ -1,4 +1,5 @@
 documentation {
+  - fix description manual (system.tex) about new_type_definition
   - document PairCases_on
   - write down the exact format required for congruence theorems (for add_cong)
   - document the relatively new Parse functions for overloads and abbrevs (e.g.
