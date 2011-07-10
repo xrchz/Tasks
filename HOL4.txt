@@ -4,6 +4,8 @@ documentation {
   - document the relatively new Parse functions for overloads and abbrevs (e.g.
     pp_overloads_on)
   - improve Parse.add_rule documentation
+  - document VAR_EQ_TAC
+  - document underscore calculation-like ability with subgoals
 }
 formalizations {
   - Coq logic within HOL (proof theoretic)
@@ -28,6 +30,7 @@ minor hacking {
   - TeX and Unicode for BIGUNION and BIGINTER
   - make Binarymap have the same interface as Redblackmap
   - tool to find undocumented but visible (i.e. in signatures) functions
+  - make underscore calculations work on more transitive operators than equality
 }
 major hacking {
   - use proforma theorems to improve HolQbf validity checking complexity
